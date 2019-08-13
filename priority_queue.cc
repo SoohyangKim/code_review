@@ -1,12 +1,6 @@
 #include "priority_queue.h"
 
-template <>
-templatePriorityQueue<int>::templatePriorityQueue(){
-}
 
-template <>
-templatePriorityQueue<int>::~templatePriorityQueue(){
-}
 
 template <>
 bool templatePriorityQueue<int>::empty() const{
@@ -14,7 +8,7 @@ bool templatePriorityQueue<int>::empty() const{
 }
 
 template <>
-int templatePriorityQueue<int>::size() {
+unsigned int templatePriorityQueue<int>::size() {
         return storage.size();
 }
 
